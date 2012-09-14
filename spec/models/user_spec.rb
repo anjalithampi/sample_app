@@ -13,7 +13,7 @@ require 'spec_helper'
 
 describe User do
   #pending "add some examples to (or delete) #{__FILE__}"
-  before { @user = User.new(name: "Anjali Thampi", email:"anjalithampi1982@gmail.com", :password => "anjali", :password_confirmation => "anjali" ) }
+  before { @user = User.new(name: "Anjali Harish", email:"anjali@example.net", :password => "foobar", :password_confirmation => "foobar" ) }
   
   subject { @user }
   
